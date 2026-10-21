@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.vscode/
+.idea/
+
+# exported models and project files made while testing
+*.glb
+*.obj
+*.mtl
+*_texture.png
+*.npz
+exports/

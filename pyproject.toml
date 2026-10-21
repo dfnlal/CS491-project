@@ -1,0 +1,23 @@
+[project]
+name = "threesweep"
+version = "0.1.0"
+description = "Editable 3D models from a single photo, based on 3-Sweep (SIGGRAPH Asia 2013)"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy",
+    "scipy",
+    "opencv-python",
+    "polyscope",
+    "trimesh",
+    "PyQt6",
+    "pyqtgraph",
+    "PyOpenGL",
+    "pillow",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

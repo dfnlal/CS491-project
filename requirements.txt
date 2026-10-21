@@ -1,0 +1,10 @@
+numpy
+scipy
+opencv-python
+trimesh
+pillow
+PyQt6
+pyqtgraph
+PyOpenGL
+polyscope
+pytest
